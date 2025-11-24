@@ -1,70 +1,243 @@
-x = [9.895833134651184082e-01,1.000000000000000000e+00,9.699074029922485352e-01,9.201388955116271973e-01,9.189814925193786621e-01,8.993055820465087891e-01,8.113425970077514648e-01,6.516203880310058594e-01,3.958333432674407959e-01,3.043981492519378662e-01,3.159722089767456055e-01,2.905092537403106689e-01,2.662037014961242676e-01,2.557870447635650635e-01,2.488425970077514648e-01,2.337962985038757324e-01,2.326388955116271973e-01,2.326388955116271973e-01,2.280092537403106689e-01,2.314814776182174683e-01,2.291666716337203979e-01,2.372685223817825317e-01,2.453703731298446655e-01,2.268518507480621338e-01,2.118055522441864014e-01,1.956018507480621338e-01,1.504629701375961304e-01,9.953703731298446655e-02,6.365741044282913208e-02,5.439814925193786621e-02,3.472222387790679932e-02,1.273148134350776672e-02,0.000000000000000000e+00,4.629629664123058319e-03,2.314814832061529160e-03,1.157407416030764580e-03,1.851851865649223328e-02,4.861111193895339966e-02,8.217592537403106689e-02,1.122685149312019348e-01,1.458333283662796021e-01,1.898148208856582642e-01,2.233796268701553345e-01,2.407407462596893311e-01,2.581018507480621338e-01,2.685185074806213379e-01,2.766203582286834717e-01,2.731481492519378662e-01,2.766203582286834717e-01,2.789351940155029297e-01,2.812500000000000000e-01,2.743055522441864014e-01,2.777777910232543945e-01,2.789351940155029297e-01,2.870370447635650635e-01,2.847222089767456055e-01,2.847222089767456055e-01,2.951388955116271973e-01,2.905092537403106689e-01,2.870370447635650635e-01,2.951388955116271973e-01,3.020833432674407959e-01,2.986111044883728027e-01,2.951388955116271973e-01,2.962962985038757324e-01,3.020833432674407959e-01,3.009259402751922607e-01,2.997685074806213379e-01,3.055555522441864014e-01,3.113425970077514648e-01,3.078703582286834717e-01,3.020833432674407959e-01,3.055555522441864014e-01,3.090277910232543945e-01,3.113425970077514648e-01,3.032407462596893311e-01,3.032407462596893311e-01,3.125000000000000000e-01,3.113425970077514648e-01,3.101851940155029297e-01,3.090277910232543945e-01,3.171296417713165283e-01,3.206018507480621338e-01,3.113425970077514648e-01,3.125000000000000000e-01,3.182870447635650635e-01,3.159722089767456055e-01,3.136574029922485352e-01,3.125000000000000000e-01,3.194444477558135986e-01,3.182870447635650635e-01,3.171296417713165283e-01,3.101851940155029297e-01,3.194444477558135986e-01,3.206018507480621338e-01,3.159722089767456055e-01,3.206018507480621338e-01,3.182870447635650635e-01,3.206018507480621338e-01,3.148148059844970703e-01,3.113425970077514648e-01,3.206018507480621338e-01,3.240740597248077393e-01,3.171296417713165283e-01,3.148148059844970703e-01,3.252314925193786621e-01,3.229166567325592041e-01,3.159722089767456055e-01,3.194444477558135986e-01,3.252314925193786621e-01,3.206018507480621338e-01,3.182870447635650635e-01,3.240740597248077393e-01,3.217592537403106689e-01,3.263888955116271973e-01,3.229166567325592041e-01,3.206018507480621338e-01,3.229166567325592041e-01,3.252314925193786621e-01,3.240740597248077393e-01,3.229166567325592041e-01,3.287037014961242676e-01,3.252314925193786621e-01,3.263888955116271973e-01,3.217592537403106689e-01,3.310185074806213379e-01,3.263888955116271973e-01,3.240740597248077393e-01,3.240740597248077393e-01,3.310185074806213379e-01,3.379629552364349365e-01,3.495370447635650635e-01,3.564814925193786621e-01,3.715277910232543945e-01,3.958333432674407959e-01,4.097222089767456055e-01,3.993055522441864014e-01,4.074074029922485352e-01,3.912037014961242676e-01,3.483796417713165283e-01,3.206018507480621338e-01,3.240740597248077393e-01,3.263888955116271973e-01,3.148148059844970703e-01,3.182870447635650635e-01,3.252314925193786621e-01,3.159722089767456055e-01,3.078703582286834717e-01,4.085648059844970703e-01,6.504629850387573242e-01,8.263888955116271973e-01,7.835648059844970703e-01,4.849537014961242676e-01,2.777777910232543945e-01,3.599537014961242676e-01,3.622685074806213379e-01,3.171296417713165283e-01,3.206018507480621338e-01,3.240740597248077393e-01,3.148148059844970703e-01,3.148148059844970703e-01,3.182870447635650635e-01,3.125000000000000000e-01,3.078703582286834717e-01,3.032407462596893311e-01,3.101851940155029297e-01,3.113425970077514648e-01,3.055555522441864014e-01,3.055555522441864014e-01,3.148148059844970703e-01,3.043981492519378662e-01,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00,0.000000000000000000e+00]
 
 
-
-
-import pandas as pd
-import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
 import numpy as np
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+from scipy import signal
+from scipy.signal import butter, filtfilt, iirnotch, savgol_filter
+import matplotlib.pyplot as plt
+
+# try import pywt for wavelet denoising (optional)
+try:
+    import pywt
+    _HAS_PYWT = True
+except Exception:
+    _HAS_PYWT = False
+
+# -------------------------
+# Базовые фильтры
+# -------------------------
+def butter_bandpass(lowcut, highcut, fs, order=4):
+    nyq = 0.5 * fs
+    low = lowcut / nyq
+    high = highcut / nyq
+    b, a = butter(order, [low, high], btype='band')
+    return b, a
+
+def bandpass_filter(sig, fs, lowcut=0.5, highcut=40.0, order=4):
+    """
+    Zero-phase bandpass фильтр (filtfilt) — минимальное искажение формы зубцов.
+    По умолчанию 0.5 - 40 Hz (хорошо для клинической ЭКГ).
+    """
+    b, a = butter_bandpass(lowcut, highcut, fs, order=order)
+    return filtfilt(b, a, sig)
+
+def notch_filter(sig, fs, freq=50.0, q=30.0):
+    """
+    IIR notch (заглушение частоты питания).
+    freq: 50 или 60 (Hz)
+    q: добротность (чем больше - тем более узкая вырезка)
+    """
+    w0 = freq / (fs / 2)  # нормированная частота
+    b, a = iirnotch(w0, q)
+    return filtfilt(b, a, sig)
+
+# -------------------------
+# Baseline removal (robust)
+# -------------------------
+def median_baseline_remove(sig, fs, win1_sec=0.2, win2_sec=0.6):
+    """
+    Двухступенчатый медианный фильтр (согласно широко используемому подходу).
+    win1_sec ~ небольшое окно для удаления QRS/T (например 0.2 s),
+    win2_sec ~ большое окно для оценки baseline (например 0.6 s).
+    Возвращает сигнал без baseline (mV).
+    """
+    # окна в сэмплах — округляем к нечётным числам для scipy.signal.medfilt
+    import math
+    def _odd(x):
+        x = int(np.round(x))
+        return x if x % 2 == 1 else x+1
+    w1 = _odd(win1_sec * fs)
+    w2 = _odd(win2_sec * fs)
+    # первая медиана убирает узкие составляющие (QRS) -> сглаженный сигнал
+    med1 = signal.medfilt(sig, kernel_size=w1)
+    med2 = signal.medfilt(med1, kernel_size=w2)
+    # baseline estimate = med2
+    sig_detrended = sig - med2
+    return sig_detrended
+
+# -------------------------
+# Wavelet denoising (optional)
+# -------------------------
+def wavelet_denoise(sig, wavelet='db6', level=None, method='soft'):
+    """
+    Простая вейвлет-денойзация: Thresholding на детальных коэффициентах.
+    Требует pywt.
+    """
+    if not _HAS_PYWT:
+        raise RuntimeError("pywt is required for wavelet_denoise. pip install pywt")
+    # выбор уровня декомпозиции
+    max_level = pywt.dwt_max_level(len(sig), pywt.Wavelet(wavelet).dec_len)
+    if level is None:
+        level = max(1, max_level // 2)
+    coeffs = pywt.wavedec(sig, wavelet, level=level)
+    # универсальный порог (Донхоэ)
+    sigma = np.median(np.abs(coeffs[-1])) / 0.6745
+    uthresh = sigma * np.sqrt(2 * np.log(len(sig)))
+    # применим мягкое порогование ко всем детальным коэффициентам
+    new_coeffs = [coeffs[0]] + [pywt.threshold(c, value=uthresh, mode=method) for c in coeffs[1:]]
+    rec = pywt.waverec(new_coeffs, wavelet)
+    # обрезаем до исходной длины
+    return rec[:len(sig)]
+
+# -------------------------
+# Полный пайплайн
+# -------------------------
+def preprocess_ecg_pipeline(sig,
+                            fs,
+                            lowcut=0.5,
+                            highcut=40.0,
+                            notch_freq=50.0,
+                            do_notch=True,
+                            do_wavelet=True,
+                            wavelet='db6'):
+    """
+    Полный pipeline:
+      1) детрендинг через медианные фильтры (baseline removal)
+      2) notch 50/60 Hz (опционально)
+      3) bandpass 0.5-40 Hz (zero-phase)
+      4) wavelet denoise (опционально)
+      5) лёгкая Savitzky-Golay фильтрация для сглаживания (необязательна)
+    Возвращает очищенный сигнал.
+    """
+    sig = np.asarray(sig, dtype=float)
+    # 1) baseline removal robust
+    sig = median_baseline_remove(sig, fs, win1_sec=0.2, win2_sec=0.6)
+
+    # 2) notch
+    if do_notch and notch_freq is not None:
+        # если сеть или регион 60 Hz - укажи 60
+        try:
+            sig = notch_filter(sig, fs, freq=notch_freq, q=30.0)
+        except Exception:
+            # fallback: попытка со второй показанной нотацией
+            sig = sig
+
+    # 3) bandpass
+    sig = bandpass_filter(sig, fs, lowcut=lowcut, highcut=highcut, order=4)
+
+    # 4) wavelet denoising (optional but useful for muscle noise)
+    if do_wavelet and _HAS_PYWT:
+        try:
+            sig = wavelet_denoise(sig, wavelet=wavelet)
+        except Exception:
+            pass
+
+    # 5) лёгкая финальная сглаживающая обработка (не портит пики при небольших параметрах)
+    # используем Savitzky-Golay для удаления мелких рывков (frame ~ 21 samples)
+    window = 11 if int(0.02 * fs) < 11 else _odd(int(0.02 * fs))  # ~20 ms
+    try:
+        sig = savgol_filter(sig, window_length=window, polyorder=2)
+    except Exception:
+        pass
+
+    return sig
+
+# helper: ensure odd
+def _odd(x):
+    x = int(np.round(x))
+    return x if x % 2 == 1 else x+1
+
+# -------------------------
+# Пример использования и визуализация
+# -------------------------
+if __name__ == "__main__":
+    # Пример: сгенерируем "плохой" сигнал: синус + baseline drift + 60Hz + random spikes
+    fs = 500
+
+    import matplotlib.pyplot as plt
+    import struct
+
+    # Укажи путь к твоему файлу
+    file_path = "00001_hr.dat"  # Замени на реальный путь, например, "C:/Users/Имя/файл.dat"
+
+    try:
+        # Открываем файл в бинарном режиме
+        with open(file_path, 'rb') as file:
+            binary_content = file.read()  # Читаем все байты
+
+        # Декодируем бинарные данные как список int32
+        numbers = []
+        for i in range(0, len(binary_content) - 3, 4):  # Шаг 4 байта
+            if i + 3 < len(binary_content):  # Проверяем, чтобы не выйти за пределы
+                number = struct.unpack('i', binary_content[i:i + 4])[0]
+                numbers.append(number)
+
+        # Выводим первые несколько чисел для проверки
+        print("Первые 10 чисел:", numbers[:10], len(numbers))
 
 
 
-# === Исправленная модель ===
-class ECGModel(nn.Module):
-    def __init__(self, input_size, hidden_size, num_classes):
-        super().__init__()
-        self.layer1 = nn.Sequential(
-            nn.Linear(input_size, hidden_size),
-            nn.ReLU(),
-            nn.Dropout(0.3)
-        )
-        self.layer2 = nn.Sequential(
-            nn.Linear(hidden_size, hidden_size // 2),
-            nn.ReLU(),
-            nn.Dropout(0.3)
-        )
-        self.fc = nn.Linear(hidden_size // 2, num_classes)
+    except FileNotFoundError:
+        print("Файл не найден. Проверь путь!")
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
 
-    def forward(self, x):
-        # Добавляем размерность батча если ее нет
-        if len(x.shape) == 1:
-            x = x.unsqueeze(0)
-
-        out = self.layer1(x)
-        out = self.layer2(out)
-        out = self.fc(out)
-        return out
+    ecg_noisy = numbers
+    t = range(len(numbers))
 
 
 
 
-x = torch.tensor(x)
+
+    denoised = preprocess_ecg_pipeline(ecg_noisy, fs=fs, lowcut=0.5, highcut=40.0, notch_freq=50.0, do_wavelet=True)
+
+    # Визуализация
+    plt.figure(figsize=(12,6))
+    plt.subplot(211)
+    plt.plot(t, ecg_noisy, label='Noisy ECG', linewidth=0.8)
+    plt.title("Noisy ECG (demo)")
+    plt.legend()
+    plt.subplot(212)
+    plt.plot(t, denoised, label='Denoised ECG', linewidth=1.0)
+    plt.title("Denoised ECG (pipeline)")
+    plt.legend()
+    plt.xlabel("Time (s)")
+    plt.tight_layout()
+    plt.show()
 
 
-input_size = len(x)
-hidden_size = 128
 
-model = ECGModel(input_size, hidden_size, 5).to(device)
-model.load_state_dict(torch.load('best_model.pth', map_location=device))
-model.eval()
+import matplotlib.pyplot as plt
+import struct
 
-# ----- Подготовка изображения -----
+# Укажи путь к твоему файлу
+file_path = "00482_hr.dat"  # Замени на реальный путь, например, "C:/Users/Имя/файл.dat"
 
+try:
+    # Открываем файл в бинарном режиме
+    with open(file_path, 'rb') as file:
+        binary_content = file.read()  # Читаем все байты
 
+    # Декодируем бинарные данные как список int32
+    numbers = [1]
+    for i in range(0, len(binary_content) - 3, 4):  # Шаг 4 байта
+        if i + 3 < len(binary_content):  # Проверяем, чтобы не выйти за пределы
+            number = struct.unpack('i', binary_content[i:i+4])[0]
+            numbers.append(number)
 
+    # Выводим первые несколько чисел для проверки
+    print("Первые 10 чисел:", numbers[:10], len(numbers))
 
-# ----- Предсказание -----
+    # Строим график
+    plt.figure(figsize=(10, 6))  # Устанавливаем размер графика
+    plt.plot(numbers, label="Данные из .dat файла")  # Строим линейный график
+    plt.title("График бинарных данных из файла")  # Заголовок
+    plt.xlabel("Индекс")  # Ось X
+    plt.ylabel("Значение")  # Ось Y
+    plt.legend()  # Легенда
+    plt.grid(True)  # Сетка для удобства
+    plt.show()
 
-with torch.no_grad():
-    outputs = model(x)
-    print(outputs)
-    #prediction = (output >= 0.5).float().item()
-    #probability = output.item()
-
-#label = "открыты" if prediction == 1.0 else "закрыты"
-#print(f"Prediction: {label} (Probability: {probability:.4f})")
-
+except FileNotFoundError:
+    print("Файл не найден. Проверь путь!")
+except Exception as e:
+    print(f"Произошла ошибка: {e}")

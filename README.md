@@ -1,8 +1,117 @@
-<h1 algin="center">⚕️ Health-AI - an AI assistant for doctors during operations</h1>
-👋 Hello everyone, <br />
- My name is Vasilii Skoptsov, I'm a 10th class student at School №626. This project was created by me for school city conferences.<br />
-Health-AI is an autonomous program capable of independently monitoring a patient's condition during surgery using ECG data and video from the operating room, identifying potential complications and determining their probabilities.
-<h1>📌 It consists of the following components</h1>
-  1. an AI based on ResNet1D for classification of second-lead ECG signals. 🫀<br /> 
-  2. an AI based on ResNet50 for complication classification by facial features. 📷<br />
-  3. an algorithm that iterates through possible complications based on sensor readings. 📈<br />
+<h1 align="center">⚕️ Health-AI — an AI assistant for doctors during operations</h1>
+
+<p align="center">A school research project about medical AI and patient monitoring 🩺</p>
+
+---
+
+## 👋 Hello!
+
+This project was created by me for school and city science conferences.  
+**Health-AI** is an autonomous system that monitors a patient’s condition during surgery using:
+
+- ECG signals  
+- camera video  
+- additional sensor data  
+
+The program detects possible complications and gives their probabilities in real time.
+
+---
+
+<h2>📌 System Components</h2>
+
+1. 🫀 **ECG model** — a ResNet1D network for classifying lead-II ECG signals  
+2. 📷 **Vision model** — a ResNet50 for detecting complications using the patient’s face  
+3. 📈 **Sensor algorithm** — checks complications using external sensor readings  
+4. 🔁 **Re-check algorithm** — compares AI outputs with rule-based logic  
+5. 🎛️ **Final probability module** — combines all predictions  
+6. 🖥️ **Interface program** — the main window with alerts and visualization  
+
+---
+
+<h2>🚀 How to Run</h2>
+
+1. Install **PyCharm** or any Python IDE  
+2. Install **Python 3.9**  
+3. Install libraries:
+pip install -r requirements.txt
+4. Clone this repository:
+git clone https://github.com/Likitha456/Health-ai.git
+cd Health-ai
+
+---
+
+<h2>📂 Main Files</h2>
+
+- **window_final_healtAI.py** — main program with interface  
+- **check_verdict_AI.py** — re-check module for AI decisions  
+- **best_model.pth** — trained ECG model  
+- **ML_ECG_cardiogramma.py** — code for ECG model training  
+- **resnet50_classification.py** — code for vision model training  
+
+---
+
+<h2>🩺 What the System Can Detect</h2>
+
+The program can classify **9 complications**:
+
+1. AV block  
+2. Fibrillation  
+3. Myocardial infarction  
+4. Hypoxia  
+5. Allergic reaction  
+6. Coagulation problems  
+7. Shock  
+8. Cyanosis  
+9. Jugular vein swelling  
+
+---
+
+<h2>🧠 About the Models</h2>
+
+### 🫀 ECG Model (ResNet1D)
+- Trained for **50–60 epochs**  
+- Dataset: **31,000 lead-II ECG signals**  
+- Input:  
+- 2,500 ECG points  
+- 2,500 derivative points  
+- You can test the system using **Arduino ECG sensors**  
+
+### 📷 Vision Model (ResNet50)
+- Trained on **5,000 photos**  
+- Detects the face using OpenCV  
+- Can work with your webcam  
+
+### 🔁 Re-check Algorithm
+This module compares:
+- the AI predictions  
+- the rule-based sensor algorithm  
+
+Then a linear regression gives a **final probability** of the complication.
+
+---
+
+<h2>📄 More Information</h2>
+
+👉 Full documentation will be available soon.  
+👉 Link: *coming soon*
+
+---
+
+<h2>⚠️ Disclaimer</h2>
+
+This program is **not a medical device**.  
+It is not intended for diagnosis or commercial use.  
+The author is not responsible for incorrect predictions.
+
+---
+
+<h2>💡 Future Plans</h2>
+
+I plan to return to this project in **3–4 years**, when I study at university (around **2029**), and make a big update with more accurate models and better sensors.
+
+---
+
+<p align="center">Thank you for reading! 😊</p>
+
+
+

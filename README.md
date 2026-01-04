@@ -92,7 +92,7 @@ Then a linear regression gives a **final probability** of the complication.
 
 <h2>📄 More Information</h2>
 
-👉 Full documentation will be available soon.  
+👉 Full documentation: health_AI_DOC1.docx.  
 👉 Link: *coming soon*
 
 ---

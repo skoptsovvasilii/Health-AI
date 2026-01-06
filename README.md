@@ -90,13 +90,16 @@ Then a linear regression gives a **final probability** of the complication.
 
 ---
 
-<h2>📄 More Information</h2>
+<h2>📄 More Information you can find in my documentation</h2>
 
-👉 Full documentation: health_AI_DOC1.docx.  
-👉 Link: *coming soon*
+👉 Full documentation: health_AI_DOC1.docx.
 
 ---
 
+<h2>🏆It is project won in some Conferences</h2>
+1) All-Russian Sechenov Conference: First place
+
+---
 <h2>⚠️ Disclaimer</h2>
 
 This program is **not a medical device**.  

@@ -5,7 +5,7 @@
 ---
 
 ## 👋 Hello!
-
+I am Skoptsov Vasilii. 
 This project was created by me for school and city science conferences.  
 **Health-AI** is an autonomous system that monitors a patient’s condition during surgery using:
 
@@ -114,7 +114,7 @@ I plan to return to this project in **3–4 years**, when I study at university 
 
 ---
 
-<p align="center">Thank you for reading! 😊</p>
+<p align="center">Thank you for reading! 😊 Skoptsov Vasilii 2025-2026</p>
 
 
 

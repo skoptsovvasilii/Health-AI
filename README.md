@@ -35,7 +35,7 @@ The program detects possible complications and gives their probabilities in real
 3. Install libraries:
 pip install -r requirements.txt
 4. Clone this repository:
-git clone https://github.com/Likitha456/Health-ai.git
+git clone https: ?
 cd Health-ai
 
 ---

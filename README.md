@@ -98,6 +98,7 @@ Then a linear regression gives a **final probability** of the complication.
 
 <h2>🏆It is project won in some Conferences</h2>
 1) All-Russian Sechenov Conference: First place
+2) The Potential Conference: Third place
 
 ---
 <h2>⚠️ Disclaimer</h2>

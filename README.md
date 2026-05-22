@@ -97,9 +97,13 @@ Then a linear regression gives a **final probability** of the complication.
 ---
 
 <h2>🏆It is project won in some Conferences</h2>
-1) All-Russian Sechenov Conference: First place
-2) The Potential Conference: Third place
-
+1) Всероссийская Сеченовская конференция(Сеченово): First place
+2) Потенциал(МЭИ): Third place
+3) Всероссийская конференция ЮНИОР(НИЯУ МИФИ) - 2nd place
+4) Старт в медицину(Сеченово) - 3rd place
+5) ЮНИОР(РНИУ Пирогово) - 2nd place
+6) Высший пилотаж(НИУ ВШЕ) - 2nd place
+7) Спектр(Бауманка) - 1st place
 ---
 <h2>⚠️ Disclaimer</h2>
 
